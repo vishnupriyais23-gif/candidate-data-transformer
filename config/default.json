@@ -1,0 +1,25 @@
+{
+  "fields": [
+    { "path": "full_name", "type": "string", "required": true },
+    { "path": "emails", "type": "string[]", "required": false },
+    { "path": "phones", "type": "string[]", "required": false },
+    { "path": "location.city", "from": "location.city", "type": "string" },
+    { "path": "location.region", "from": "location.region", "type": "string" },
+    { "path": "location.country", "from": "location.country", "type": "string" },
+    { "path": "links.linkedin", "from": "links.linkedin", "type": "string" },
+    { "path": "links.github", "from": "links.github", "type": "string" },
+    { "path": "links.leetcode", "from": "links.leetcode", "type": "string" },
+    { "path": "links.hackerrank", "from": "links.hackerrank", "type": "string" },
+    { "path": "links.portfolio", "from": "links.portfolio", "type": "string" },
+    { "path": "links.other", "from": "links.other", "type": "string[]" },
+    { "path": "headline", "type": "string" },
+    { "path": "years_experience", "type": "number" },
+    { "path": "skills", "type": "object[]" },
+    { "path": "experience", "type": "object[]" },
+    { "path": "education", "type": "object[]" },
+    { "path": "projects", "type": "object[]" }
+  ],
+  "include_confidence": true,
+  "include_provenance": true,
+  "on_missing": "null"
+}

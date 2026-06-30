@@ -1,0 +1,207 @@
+{
+  "candidate_id": "62a390f8-3feb-5db4-838b-a34a3d2e6e45",
+  "full_name": "Aarav Sharma",
+  "emails": [
+    "aarav.sharma@example.com"
+  ],
+  "phones": [
+    "+919876543210"
+  ],
+  "location.city": "Bangalore",
+  "location.region": "Karnataka",
+  "location.country": "IN",
+  "links.linkedin": "https://linkedin.com/in/aaravsharma",
+  "links.github": "https://github.com/aaravsharma-dev",
+  "links.portfolio": null,
+  "links.other": null,
+  "headline": null,
+  "years_experience": 3.4,
+  "skills": [
+    {
+      "name": "Amazon Web Services",
+      "confidence": 0.6,
+      "sources": [
+        "notes",
+        "resume"
+      ]
+    },
+    {
+      "name": "Docker",
+      "confidence": 0.6,
+      "sources": [
+        "notes",
+        "resume"
+      ]
+    },
+    {
+      "name": "Express.js",
+      "confidence": 0.5,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "Git",
+      "confidence": 0.5,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "confidence": 0.5,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "confidence": 0.6,
+      "sources": [
+        "notes",
+        "resume"
+      ]
+    },
+    {
+      "name": "MongoDB",
+      "confidence": 0.5,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "Node.js",
+      "confidence": 0.5,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "PostgreSQL",
+      "confidence": 0.5,
+      "sources": [
+        "resume"
+      ]
+    },
+    {
+      "name": "Python",
+      "confidence": 0.6,
+      "sources": [
+        "notes",
+        "resume"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "TechNova Solutions",
+      "title": "Software Engineer",
+      "start": "2023-06",
+      "end": null,
+      "summary": "Current role from recruiter CSV"
+    },
+    {
+      "company": "Cognizant",
+      "title": "Backend Developer Intern",
+      "start": "2023-01",
+      "end": "2023-05",
+      "summary": "Developed internal tools using Node.js and Express\nWrote unit tests improving code coverage from 40% to 75%"
+    }
+  ],
+  "education": [
+    {
+      "institution": "BMS College of Engineering",
+      "degree": "B.E",
+      "field": "Computer Science",
+      "end_year": 2023
+    }
+  ],
+  "overall_confidence": 0.664,
+  "provenance": [
+    {
+      "field": "full_name",
+      "source": "csv",
+      "method": "direct_extract"
+    },
+    {
+      "field": "headline",
+      "source": "none",
+      "method": "not_found"
+    },
+    {
+      "field": "years_experience",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "location.city",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "location.region",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "location.country",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "links.linkedin",
+      "source": "resume",
+      "method": "regex"
+    },
+    {
+      "field": "links.github",
+      "source": "resume",
+      "method": "regex"
+    },
+    {
+      "field": "links.portfolio",
+      "source": "none",
+      "method": "not_found"
+    },
+    {
+      "field": "links.other",
+      "source": "none",
+      "method": "not_found"
+    },
+    {
+      "field": "emails",
+      "source": "csv",
+      "method": "direct_extract"
+    },
+    {
+      "field": "phones",
+      "source": "csv",
+      "method": "direct_extract"
+    },
+    {
+      "field": "skills",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "skills",
+      "source": "notes",
+      "method": "heuristic"
+    },
+    {
+      "field": "experience",
+      "source": "csv",
+      "method": "direct_extract"
+    },
+    {
+      "field": "experience",
+      "source": "resume",
+      "method": "heuristic"
+    },
+    {
+      "field": "education",
+      "source": "resume",
+      "method": "heuristic"
+    }
+  ]
+}

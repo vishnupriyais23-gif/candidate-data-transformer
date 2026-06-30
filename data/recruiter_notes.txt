@@ -1,0 +1,11 @@
+Recruiter Notes
+
+Candidate Name: Jane Doe
+Email: jane.doe@example.com
+Phone: +1 (555) 123-4567
+
+Spoke with Jane today. She has 8 years of experience in software engineering and technical leadership.
+Her core skills include Java, Spring, Kubernetes, and SQL.
+She is currently a Tech Lead at Tech Corp.
+She is looking for a remote Engineering Manager role.
+She completed her education at Stanford University around 2016.

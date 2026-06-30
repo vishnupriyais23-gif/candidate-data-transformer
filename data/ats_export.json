@@ -1,0 +1,53 @@
+[
+  {
+    "applicant_name": "Vishwesh Neww",
+    "contact_email": "vishwesh@example.com",
+    "contact_phone": "+91 90147 46514",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "country": "India",
+    "linkedin_url": "https://linkedin.com/in/vishwesh",
+    "github_url": "https://github.com/vishhneww",
+    "role_headline": "Backend Engineer",
+    "years_of_experience": 5.5,
+    "skills_list": ["Python", "Go", "Docker", "JS"],
+    "work_history": [
+      {
+        "company": "Acme Corp",
+        "title": "Software Engineer",
+        "start": "2021-06",
+        "end": "2023-12",
+        "summary": "Developed backend APIs in Python and Go."
+      }
+    ],
+    "education_history": [
+      {
+        "institution": "IIT Hyderabad",
+        "degree": "B.Tech",
+        "field": "Computer Science",
+        "end_year": 2021
+      }
+    ]
+  },
+  {
+    "applicant_name": "Jane Doe",
+    "contact_email": "jane.doe@example.com",
+    "contact_phone": "+1 555 123 4567",
+    "city": "San Francisco",
+    "state": "California",
+    "country": "US",
+    "linkedin_url": "https://linkedin.com/in/janedoe",
+    "role_headline": "Engineering Manager",
+    "years_of_experience": 8,
+    "skills_list": ["Java", "Spring", "Kubernetes"],
+    "work_history": [
+      {
+        "company": "Tech Corp",
+        "title": "Tech Lead",
+        "start": "2018-01",
+        "end": null,
+        "summary": "Leading team of engineers."
+      }
+    ]
+  }
+]

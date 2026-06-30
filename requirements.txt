@@ -1,0 +1,11 @@
+pandas
+requests
+pdfplumber
+python-docx
+phonenumbers
+dateparser
+pycountry
+rapidfuzz
+pydantic>=2.0
+pytest
+streamlit
